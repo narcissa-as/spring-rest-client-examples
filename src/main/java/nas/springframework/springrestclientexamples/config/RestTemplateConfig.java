@@ -5,7 +5,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
-
+//indicates that a class declares one or more @Bean methods, so Spring Container can process the class
+// and generates Spring Bean to be used in the application
 @Configuration
 public class RestTemplateConfig {
 
